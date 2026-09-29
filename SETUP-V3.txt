@@ -1,0 +1,6 @@
+1. Replace all Code.gs with google-apps-script.gs.
+2. Save. Deploy > Manage deployments > Edit > New version > Deploy. Keep Execute as Me and access Anyone.
+3. In Sheet1 put E1 = Request ID. Existing columns A-D unchanged.
+4. Clear old test row 2.
+5. Test website and verify row 2 + confirmation screen.
+Note: status endpoint reveals only whether a random request ID was saved, not date/time/name.
